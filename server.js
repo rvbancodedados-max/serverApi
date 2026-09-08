@@ -143,9 +143,10 @@ server.put('/fotosInstagram/:id', async (request, reply) => {
 
     return reply.status(204).send()
 })
-
+const port = process.env.PORT || 3321;
 
 
 server.listen({
-    port: 3321
+    port,
+    host: "0.0.0.0"
 })
