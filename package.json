@@ -2,10 +2,7 @@
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js"
-  },
-  "engines": {
-    "node": "22.x"
-  },
+  }
   "dependencies": {
     "@fastify/cors": "^11.3.0",
     "dotenv": "^17.4.2",
